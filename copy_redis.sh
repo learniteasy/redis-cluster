@@ -1,4 +1,7 @@
 #/bin/bash
+mkdir 8000 8001 8002 8003 8004 8005
+echo "mkdir 8000 8001 8002 8003 8004 8005 <-- Done"
+
 cp ./redis-stable/redis.conf ./redis.conf_bkup
 
 echo "Copying redis-stable to 8000 8001 8002 8003 8004 8005"
