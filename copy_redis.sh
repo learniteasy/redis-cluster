@@ -30,3 +30,4 @@ cp redis.conf 8004
 sed -i -e 's/8004/8005/g' redis.conf
 cp redis.conf 8005
 
+sed -i -e 's/8005/8000/g' redis.conf
